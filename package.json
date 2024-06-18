@@ -1,5 +1,5 @@
 {
-  "name": "Commerce-Tools-Frontend",
+  "name": "commercetools-next",
   "private": true,
   "scripts": {
     "build": "turbo build",
