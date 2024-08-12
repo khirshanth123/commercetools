@@ -1,0 +1,249 @@
+{
+  "common": {
+    "setDefault": "Usar por defecto",
+    "default": "Por defecto",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "home": "Inicio",
+    "showMore": "Ver más",
+    "showLess": "Ver menos",
+    "close": "Cerrar",
+    "cancel": "Cancelar",
+    "readMore": "Leer Más",
+    "readLess": "Leer menos",
+    "genericError": "Ocurrió un error. Intenta de nuevo más tarde."
+  },
+  "product": {
+    "listTitle": "Productos",
+    "breadcrumb": "Productos",
+    "addToCart": "Agregar",
+    "addedToCart": "Agregado",
+    "addingToCart": "Agregando",
+    "outOfStock": "Agotado",
+    "sku": "SKU{sku}",
+    "results": "{count} resultados para \"{search}\"",
+    "reviews": "{count} reseñas",
+    "description": "Descripción",
+    "specifications": "Especificaciones del producto",
+    "sort": {
+      "label": "Ordenar por"
+    },
+    "facet": {
+      "filters": "Filtros",
+      "appliedFilters": "Filtros aplicados",
+      "clearAll": "Limpiar"
+    },
+    "searchBreadcrumb": "Búsqueda",
+    "noResultsTitle": "Lo sentimos, no hay resultados.",
+    "noResultsMessage": "Te invitamos a explorar nuestra sección de productos donde encontrarás toda nuestra variedad.",
+    "seeOtherProducts": "Ver productos",
+    "productNotFound": "Producto no encontrado",
+    "productNotFoundMessage": "Te invitamos a explorar nuestra sección de productos donde encontrarás toda nuestra variedad.",
+    "errors": {
+      "noStock": "Baja disponibilidad de existencias",
+      "noStockDescription": "No se puede agregar más de este producto a tu carrito debido a stock insuficiente.",
+      "lowStock": "Bajo inventario",
+      "lowStockDescription": "Solo pudimos agregar {count, plural, =0 {productos} =1 {un producto} other {# productos}} a tu carrito."
+    },
+    "variants": {
+      "style": "Estilo",
+      "size": "Talla"
+    }
+  },
+  "review": {
+    "label": "Reseñas",
+    "title": "Lo que dicen las personas",
+    "sku": "SKU",
+    "summaryTitle": "Basado en {count} reseñas",
+    "summaryStars": "estrellas",
+    "summaryStar": "estrella",
+    "shareYourExperience": "Comparte tu experiencia con este producto",
+    "writeAReview": "Escribe una reseña",
+    "titleInput": "Título",
+    "commentInput": "Comentario",
+    "submitReview": "Enviar reseña",
+    "headlineValidation": "Se requiere un título.",
+    "commentValidation": "Se requiere un comentario.",
+    "ratingValidation": "Se requiere una calificación.",
+    "toastErrorTitle": "Tu reseña no fue enviada.",
+    "toastErrorDescription": "Por favor, intenta de nuevo más tarde.",
+    "toastSuccessTitle": "¡Tu reseña fue enviada!",
+    "toastSuccessDescription": "Ten en cuenta que las reseñas pueden requerir revisión antes de aparecer aquí.",
+    "loadMoreReviews": "Mas Reseñas",
+    "errors": {
+      "ratingError": "Se requiere una calificación.",
+      "titleError": "Se requiere un título",
+      "commentError": "Se requiere un comentario"
+    },
+    "sort": {
+      "mostRecent": "Más reciente",
+      "topReviews": "Reseñas principales",
+      "criticalReviews": "Reseñas críticas"
+    },
+    "filter": {
+      "allStars": "Todas las estrellas",
+      "starsOnly": "solo estrellas"
+    }
+  },
+  "searchBox": {
+    "placeholder": "Buscar",
+    "noResults": {
+      "title": "No pudimos encontrar coincidencias para <important>\"{search}\"</important>",
+      "description": "Por favor, intenta otra búsqueda"
+    },
+    "suggestions": "Sugerencias",
+    "products": "Productos"
+  },
+  "address": {
+    "title": "Direcciones",
+    "breadcrumb": "Direcciones",
+    "postalCode": "Código postal: {postalCode}",
+    "phone": "Teléfono: {phone}"
+  },
+  "userMenu": {
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "addresses": "Direcciones",
+    "welcome": "Bienvenido, {name}",
+    "account": "Cuenta",
+    "updatePassword": "Actualizar contraseña"
+  },
+  "navigation": {
+    "shopAll": "Ver Todo",
+    "brands": "Marcas",
+    "categories": "Categorías",
+    "quickOrder": "Pedido Rápido",
+    "label": "Menú Principal"
+  },
+  "footer": {
+    "Drills": "Taladros",
+    "Angle Grinders": "Amoladoras angulares",
+    "Screwdrivers": "Destornilladores",
+    "Sanders": "Lijadoras",
+    "Measuring & Layout Tools": "Herramientas de medición y trazado",
+    "Hand Tools": "Herramientas manuales",
+    "Safety": "Seguridad",
+    "Find a service center": "Buscar un centro de servicio",
+    "Manuals and downloads": "Manuales y descargas",
+    "Become a client": "Convertirse en cliente",
+    "Work with us": "Trabaja con nosotros",
+    "Call us": "Contáctanos",
+    "Careers": "Carreras",
+    "Diversity": "Diversidad",
+    "Community": "Comunidad",
+    "Products": "Productos",
+    "Support": "Soporte",
+    "About Us": "Acerca de nosotros",
+    "cmsParagraph": {
+      "title": "Nuestra promesa",
+      "description": "Somos una consultoría digital global con miles de estrategas y profesionales capacitados. Estamos marcando la diferencia transformando la forma en que el mundo se conecta."
+    }
+  },
+  "loginForm": {
+    "pageTitle": "Inicio de sesión",
+    "title": "Iniciar sesión",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "Introduce tu correo electrónico",
+    "password": "Contraseña",
+    "passwordPlaceholder": "Introduce tu contraseña",
+    "submit": "Iniciar sesión",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "register": "Registrarse",
+    "emailValidation": "Email es requerido.",
+    "emailRegexValidation": "No es un email válido.",
+    "passwordValidation": "Contraseña requerida.",
+    "errors": {
+      "default": "<description>No fue posible iniciar sesión.</description>",
+      "signin": "<title>Error al iniciar sesión.</title><description>Intente iniciar sesión con una cuenta diferente.</description>",
+      "credentialssignin": "<title>Error al iniciar sesión.</title><description>Verifique que los datos proporcionados sean correctos.</description>",
+      "sessionrequired": "<description>Por favor inicie sesión para acceder a esta página.</description>"
+    }
+  },
+  "forgotPasswordForm": {
+    "pageTitle": "Olvidé mi contraseña",
+    "title": "Restablece tu contraseña",
+    "description": "Te enviaremos un correo electrónico para restablecer tu contraseña.",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "Introduce tu correo electrónico",
+    "submit": "Recuperar contraseña",
+    "cancel": "Cancelar",
+    "emailValidation": "El correo electrónico es obligatorio",
+    "emailRegexValidation": "Este no es un email válido",
+    "updatePasswordSuccess": "Se te ha enviado un correo electrónico con información sobre cómo restablecer tu contraseña."
+  },
+  "updatePasswordForm": {
+    "pageTitle": "Actualizar contraseña",
+    "title": "Actualiza tu contraseña",
+    "description": "La contraseña debe contener una letra mayúscula, un número, un carácter especial y tener al menos 6 caracteres de longitud.",
+    "oldPassword": "Contraseña anterior",
+    "oldPasswordPlaceholder": "Contraseña anterior",
+    "newPassword": "Nueva contraseña",
+    "newPasswordPlaceholder": "Nueva contraseña",
+    "confirmNewPassword": "Confirmar nueva contraseña",
+    "confirmNewPasswordPlaceholder": "Confirmar contraseña",
+    "submit": "Actualizar contraseña",
+    "cancel": "Cancelar",
+    "passwordUpdateSuccess": "Contraseña actualizada correctamente.",
+    "validations": {
+      "oldPasswordValidation": "Este campo es requerido",
+      "newPasswordValidation": "Este campo es requerido",
+      "confirmNewPasswordValidation": "Este campo es requerido",
+      "badRequestOldPasswordIncorrect": "La contraseña anterior es incorrecta",
+      "newPasswordRegexValidation": "Esta no es una contraseña valida",
+      "matchNewPasswordValidation": "Las contraseñas no coinciden"
+    },
+    "errors": {
+      "PasswordMismatchError": "La contraseña anterior es incorrecta"
+    }
+  },
+  "carousel": {
+    "bestSellers": "Los mas vendidos",
+    "featuredProducts": "Productos destacados",
+    "youMayLike": "También te puede gustar"
+  },
+  "cart": {
+    "cartDetails": {
+      "myCart": "Mi Carrito ({items})",
+      "cartProductsCount": "({items} productos)",
+      "cartID": "ID #{cartId}",
+      "description": "Descripción",
+      "sku": "SKU {code}",
+      "price": "Precio",
+      "qty": "Cantidad",
+      "eachPrice": "{price} c/u",
+      "remove": "Eliminar"
+    },
+    "errors": {
+      "clearCartTitle": "No se pudo eliminar tu carrito",
+      "clearCartDescription": "Ocurrió un error al intentar eliminar tu carrito. Por favor, inténtalo de nuevo.",
+      "removeEntryTitle": "No se pudo eliminar el producto",
+      "removeEntryDescription": "Ocurrió un error al intentar eliminar el producto de tu carrito. Por favor, inténtalo de nuevo.",
+      "updateQuantityTitle": "No se pudo actualizar la cantidad",
+      "updateQuantityDescription": "Ocurrió un error al intentar actualizar la cantidad del producto. Por favor, inténtalo de nuevo."
+    },
+    "clearCartModal": {
+      "description1": "Se eliminarán todos los artículos de tu carrito activo.",
+      "description2": "¿Estás seguro de que quieres vaciar este carrito?",
+      "cancel": "Cancelar"
+    },
+    "clearCart": "Limpiar Carrito",
+    "pageTitle": "Carrito de compras",
+    "noResultsTitle": "Tu carrito está vacío",
+    "noResultsMessage": "Parece que aún no has agregado nada a tu carrito",
+    "seeOtherProducts": "Explora nuestros productos",
+    "checkout": "Proceder al pago"
+  },
+  "orderSummary": {
+    "title": "Resumen del pedido",
+    "subtotal": "Subtotal",
+    "tax": "Impuestos",
+    "shipping": "Envío",
+    "apply": "Aplicar",
+    "totalDue": "Total a pagar",
+    "discounts": "Descuentos",
+    "TBD": "Por determinar"
+  },
+  "checkout": {
+    "pageTitle": "Checkout"
+  }
+}

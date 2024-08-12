@@ -1,5 +1,4 @@
-const plugin = require("tailwindcss/plugin");
-const { themeColors } = require("@commercetools-next/theme");
+import  { themeColors } from  "@repo/theme"
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {

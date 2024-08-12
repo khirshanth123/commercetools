@@ -1,2 +1,2 @@
-import Config from "@commercetools-next/tailwind-config"
+import Config from "@repo/tailwind-config"
 export default  Config

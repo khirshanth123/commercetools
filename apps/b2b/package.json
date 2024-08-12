@@ -1,5 +1,5 @@
 {
-  "name": "@commercetools-next/b2b",
+  "name": "b2b",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,21 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@commercetools-next/core": "workspace:*",
-    "@commercetools-next/ui": "workspace:*",
+    "@repo/core": "workspace:*",
+    "@repo/tailwind-config": "workspace:*",
+    "@repo/ui": "workspace:*",
+    "next": "14.2.4",
+    "next-auth": "^4.24.7",
+    "next-intl": "^3.15.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.4"
+    "swr": "^2.2.5"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.4",
-    "@commercetools-next/tailwind-config": "workspace:*"
+    "typescript": "^5"
   }
 }

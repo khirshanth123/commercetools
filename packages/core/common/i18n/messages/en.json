@@ -1,0 +1,248 @@
+{
+  "common": {
+    "setDefault": "Set as default",
+    "default": "Default",
+    "delete": "Delete",
+    "edit": "Edit",
+    "home": "Home",
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "close": "Close",
+    "cancel": "Cancel",
+    "readMore": "Read More",
+    "readLess": "Read Less",
+    "genericError": "An error occurred. Please try again later."
+  },
+  "product": {
+    "listTitle": "Products",
+    "breadcrumb": "All Products",
+    "addToCart": "Add to cart",
+    "addedToCart": "Added",
+    "addingToCart": "Adding",
+    "outOfStock": "Out of stock",
+    "sku": "SKU{sku}",
+    "results": "{count} results for \"{search}\"",
+    "reviews": "{count} reviews",
+    "description": "Description",
+    "specifications": "Product Specifications",
+    "sort": {
+      "label": "Sort by"
+    },
+    "facet": {
+      "filters": "Filters",
+      "appliedFilters": "Applied filters",
+      "clearAll": "Clear All"
+    },
+    "searchBreadcrumb": "Search",
+    "noResultsTitle": "Sorry, there are no results.",
+    "noResultsMessage": "We invite you to browse our product section where you will find all our variety.",
+    "seeOtherProducts": "Show products",
+    "productNotFound": "Product not found",
+    "productNotFoundMessage": "We invite you to browse our product section where you will find all our variety.",
+    "errors": {
+      "noStock": "Stock Shortage",
+      "noStockDescription": "Unable to add more of this item to your cart due to insufficient stock",
+      "lowStock": "Low Stock",
+      "lowStockDescription": "We only could add {count, plural, =0 {items} =1 {item} other {# items}} to your cart."
+    },
+    "variants": {
+      "style": "Style",
+      "size": "Size"
+    }
+  },
+  "review": {
+    "label": "Reviews",
+    "title": "What people are saying",
+    "sku": "SKU",
+    "summaryTitle": "Based on {count} reviews",
+    "summaryStars": "stars",
+    "summaryStar": "star",
+    "shareYourExperience": "Share your experience with this product",
+    "writeAReview": "Write a review",
+    "titleInput": "Title",
+    "commentInput": "Comment",
+    "submitReview": "Send Review",
+    "headlineValidation": "Title is required.",
+    "commentValidation": "Comment is required.",
+    "ratingValidation": "Rating is required.",
+    "toastErrorTitle": "Your review wasn't submitted.",
+    "toastErrorDescription": "Please try again later.",
+    "toastSuccessTitle": "Your review was submitted!",
+    "toastSuccessDescription": "Note that reviews may require review before appearing here.",
+    "loadMoreReviews": "More Reviews",
+    "errors": {
+      "ratingError": "Rating is required.",
+      "titleError": "Title is required",
+      "commentError": "Comment is required"
+    },
+    "sort": {
+      "mostRecent": "Most recent",
+      "topReviews": "Top Reviews",
+      "criticalReviews": "Critical Reviews"
+    },
+    "filter": {
+      "allStars": "All stars",
+      "starsOnly": "stars only"
+    }
+  },
+  "searchBox": {
+    "placeholder": "Search",
+    "noResults": {
+      "title": "We could’t find any matches for <important>\"{search}\"</important>",
+      "description": "Please try another search"
+    },
+    "suggestions": "Suggestions",
+    "products": "Products"
+  },
+  "address": {
+    "title": "Addresses",
+    "breadcrumb": "Addresses",
+    "postalCode": "Zip: {postalCode}",
+    "phone": "Phone: {phone}"
+  },
+  "userMenu": {
+    "login": "Login",
+    "logout": "Logout",
+    "addresses": "Addresses",
+    "welcome": "Welcome, {name}",
+    "account": "Account",
+    "updatePassword": "Update password"
+  },
+  "navigation": {
+    "shopAll": "Shop All",
+    "brands": "Brands",
+    "categories": "Categories",
+    "quickOrder": "Quick Order",
+    "label": "Main Menu"
+  },
+  "footer": {
+    "Drills": "Drills",
+    "Angle Grinders": "Angle Grinders",
+    "Screwdrivers": "Screwdrivers",
+    "Sanders": "Sanders",
+    "Measuring & Layout Tools": "Measuring & Layout Tools",
+    "Hand Tools": "Hand Tools",
+    "Safety": "Safety",
+    "Find a service center": "Find a service center",
+    "Manuals and downloads": "Manuals and downloads",
+    "Become a client": "Become a client",
+    "Work with us": "Work with us",
+    "Call us": "Call us",
+    "Careers": "Careers",
+    "Diversity": "Diversity",
+    "Community": "Community",
+    "Products": "Products",
+    "Support": "Support",
+    "About Us": "About us",
+    "cmsParagraph": {
+      "title": "Our promise",
+      "description": "We’re global digital consultancy with thousands of skilled strategists and technologists. We’re making a difference by transforming how the world connects"
+    }
+  },
+  "loginForm": {
+    "pageTitle": "Login",
+    "title": "Login",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "submit": "Login",
+    "forgotPassword": "Forgot password?",
+    "register": "Register",
+    "emailValidation": "Email is required.",
+    "emailRegexValidation": "This is not a valid email.",
+    "passwordValidation": "Password is required.",
+    "errors": {
+      "default": "<description>Unable to sign in.</description>",
+      "signin": "<title>Sign in failed.</title><description>Try signing in with a different account.</description>",
+      "credentialssignin": "<title>Sign in failed.</title><description>Please verify your details.</description>",
+      "sessionrequired": "<description>Please sign in to access this page.</description>"
+    }
+  },
+  "forgotPasswordForm": {
+    "pageTitle": "Forgot Password",
+    "title": "Reset your password",
+    "description": "We will send you an email to reset your password.",
+    "email": "Email Address",
+    "emailPlaceholder": "Enter your email",
+    "submit": "Reset Password",
+    "cancel": "Cancel",
+    "emailValidation": "Email is required.",
+    "emailRegexValidation": "This is not a valid email.",
+    "updatePasswordSuccess": "An email has been sent to you with information on how to reset your password."
+  },
+  "updatePasswordForm": {
+    "pageTitle": "Update Password",
+    "title": "Update your password",
+    "description": "Password must contain one uppercase letter, one number, one special character, and be at least 6 characters long.",
+    "oldPassword": "Old Password",
+    "oldPasswordPlaceholder": "Old Password",
+    "newPassword": "New Password",
+    "newPasswordPlaceholder": "New Password",
+    "confirmNewPassword": "Confirm New Password",
+    "confirmNewPasswordPlaceholder": "Confirm Password",
+    "submit": "Update Password",
+    "cancel": "Cancel",
+    "passwordUpdateSuccess": "Password updated successfully",
+    "validations": {
+      "oldPasswordValidation": "This field is required",
+      "newPasswordValidation": "This field is required",
+      "confirmNewPasswordValidation": "This field is required",
+      "badRequestOldPasswordIncorrect": "Old password is incorrect",
+      "newPasswordRegexValidation": "This is not a valid password format",
+      "matchNewPasswordValidation": "Password fields must match"
+    },
+    "errors": {
+      "PasswordMismatchError": "Old password is incorrect"
+    }
+  },
+  "carousel": {
+    "bestSellers": "Best Sellers",
+    "featuredProducts": "Featured products",
+    "youMayLike": "You may also like"
+  },
+  "cart": {
+    "cartDetails": {
+      "myCart": "My Cart",
+      "cartProductsCount": "({items} products)",
+      "cartID": "ID #{cartId}",
+      "description": "Description",
+      "sku": "SKU {code}",
+      "price": "Price",
+      "qty": "Qty",
+      "eachPrice": "{price} each",
+      "remove": "Remove"
+    },
+    "errors": {
+      "clearCartTitle": "Unable to clear your cart",
+      "clearCartDescription": "Something went wrong while attempting to clear your cart. Please try again.",
+      "removeEntryTitle": "Unable to remove the product",
+      "removeEntryDescription": "Something went wrong while attempting to remove the product from your cart. Please try again.",
+      "updateQuantityTitle": "Unable to update the quantity",
+      "updateQuantityDescription": "Something went wrong while attempting to update the quantity of the product. Please try again."
+    },
+    "clearCartModal": {
+      "description1": "All items in your active cart will be removed.",
+      "description2": "Are you sure you want to clear this cart?",
+      "cancel": "Cancel"
+    },
+    "clearCart": "Clear Cart",
+    "pageTitle": "Shopping Cart",
+    "noResultsTitle": "Your cart is empty",
+    "noResultsMessage": "Looks like you haven’t added anything to your cart yet",
+    "seeOtherProducts": "Explore our products",
+    "checkout": "Go to Checkout"
+  },
+  "orderSummary": {
+    "title": "Summary",
+    "subtotal": "Subtotal",
+    "tax": "Tax",
+    "shipping": "Shipping",
+    "totalDue": "Total due",
+    "discounts": "Total Discounts",
+    "TBD": "TBD"
+  },
+  "checkout": {
+    "pageTitle": "Checkout"
+  }
+}

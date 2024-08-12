@@ -1,15 +1,13 @@
-import React, { Suspense } from 'react';
+import React, { ReactNode } from 'react';
 import type { Metadata } from "next";
-import { Red_Hat_Display } from "next/font/google";
-import { type DefaultLayoutProps } from '@commercetools-next/core';
-import { MainLayout } from '@commercetools-next/core/components';
+import { Inter } from "next/font/google";
 import "@app/styles/globals.css";
+import { MainLayout } from '@repo/core/components';
+import { getServerSiteContext, setRequestLocale } from '@repo/core/server';
+import { DefaultLayoutProps } from '@repo/core';
+import { SiteContextProvider } from '@repo/core/client';
 
-const font = Red_Hat_Display({
-  subsets: ['latin'],
-  variable: '--font-sans',
-  display: 'swap',
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,6 +15,7 @@ export const metadata: Metadata = {
 };
 
 export interface RootLayoutProps extends DefaultLayoutProps {
+  children: any;
   params: {
     baseSite: string;
     locale: string;
@@ -24,13 +23,19 @@ export interface RootLayoutProps extends DefaultLayoutProps {
   };
 }
 export default async function RootLayout({ children, params: { locale } }: RootLayoutProps) {
+  await setRequestLocale(locale);
+  const siteContext = await getServerSiteContext();
+
+
   return (
-    <html lang={locale}>
-      <body className={font.className}>
-      <Suspense>
-      <MainLayout>{children}</MainLayout>
-      </Suspense>
-    </body>
+    <html lang={locale || siteContext.language}>
+      <body className={inter.className}>
+        <SiteContextProvider siteContext={siteContext}>
+          <MainLayout siteContext={siteContext}>
+            {children}
+          </MainLayout>
+        </SiteContextProvider>
+      </body>
     </html>
   );
 }

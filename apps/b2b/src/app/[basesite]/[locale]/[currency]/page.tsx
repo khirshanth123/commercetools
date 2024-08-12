@@ -1,10 +1,9 @@
-import { Container } from "@commercetools-next/ui"
+import { Container } from "@repo/ui"
+
 export default function Home() {
   return (
-      <>
-          <Container>
-            asds
-          </Container>
-      </>
+    <Container>
+    asd
+     </Container>
   );
 }
